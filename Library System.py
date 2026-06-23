@@ -9,7 +9,7 @@ def add_book():
     book = {"title": title, "author": author, "available": True}
     library.append(book)
 
-    print("Book added")
+    print("Book added to the list")
 
 
 def view_books():
